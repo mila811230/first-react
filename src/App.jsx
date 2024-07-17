@@ -1,6 +1,7 @@
 import {ColoredMessage} from './components/ColoredMessage'
 import {ColoredMessage2} from './components/ColoredMessage2'
 
+
 export function App(){
   const divStyle = {
     border : '1px solid blue' 

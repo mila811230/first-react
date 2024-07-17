@@ -1,5 +1,5 @@
-import ReactDOM from 'react-dom';
-import {App} from './App';
+import ReactDOM from 'react-dom'
+import {App} from './App003'
 // const App = () => {
 //   return (
 //     <p>안녕하세요</p>

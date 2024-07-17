@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      margin: 0 auto;
+    }
+
+    #MainBox{
+      margin: 30px auto;
+      overflow: hidden;
+      width: 500px;
+      height: 150px;
+      padding: 20px;
+      background-color: rgb(252, 245, 253);
+      display: flex;
+      align-items: center;
+
+
+    }
+    .PersProfile{
+      float: left;
+      line-height: 100%;
+
+    }
+    input{
+      width: 300px;
+      height: 20px;
+
+    }
+    button{
+      width: 100px;
+      height: 100px;
+      background-color: pink;
+      border: none;
+      border-radius: 8px;
+      margin: 20px;
+
+    }
+  </style>
+</head>
+<body>
+  <div id="MainBox">
+    <div class="PersProfile">
+      <p>이름 :
+        <input type="text" placeholder="이름이 뭐예요?">
+      </p>
+      <p> 나이 :
+        <input type="text" placeholder="나이는요?">
+      </p>
+      <p> 직업 :
+        <input type="text" placeholder="하는일은요?">
+      </p>
+    </div>
+    <div class="AddButton">
+      <button>추가</button>
+    </div>
+  </div>
+</body>
+</html>
